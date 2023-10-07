@@ -1,7 +1,8 @@
-# Word Count
+# MapReduce Word Count
 ## To Run
 input this into your terminal to run the hadoop program: 'hadoop jar MyWordCount3.jar (the .java you want to run so WordCount1 WordCount2 or WordCount3) (input path of file in HDFS) (directory you want to output)' <br>
 To get the output file input: "hdfs dfs -get (directory you want to output)/part-r-00000 (directory you want to place it)" <br>
+Feel free to run it against the input_txt text file provided, it will run with the jar and java files assuming all the appropriate libraries for hadoop MapReduce are installed 
 ## Each java file (they are all stored in MyWordCount3.jar)
 **WordCount** : <br>
 Returns the word count of every word in the text file <br>
